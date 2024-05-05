@@ -1,0 +1,44 @@
+.outer {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.outer h2 {
+    text-align: center;
+}
+
+.user,
+.pass {
+    margin-bottom: 10px;
+}
+
+.user label,
+.pass label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user input,
+.pass input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sub button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sub button:hover {
+    background-color: #0056b3;
+}
